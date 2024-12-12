@@ -4,10 +4,13 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const hello = (name) => {
+    return `Ciao ${name}`;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+const result = hello(userName);
+console.log(result)
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
